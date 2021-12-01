@@ -1,0 +1,47 @@
+{
+  "model_id": {
+    "username_input": "input[name='username']",
+    "password_input": "input[name='password']",
+    "login_button": ".auth0-lock-cred-pane button",
+    "dashboard_regions": ".MuiGrid-container div:nth-child(1) h2",
+    "map_icon_one": ".MuiButtonGroup-root button",
+    "map_icon_two": ".MuiButtonGroup-root button",
+    "serach_input": ".MuiAutocomplete-inputRoot input",
+    "search_autocomplete": ".MuiAutocomplete-popper div ul li)",
+    "mouseover_inactive_icon": "div[title='Click to build Region']",
+    "inactive_icon": ".MuiCardContent-root .MuiTouchRipple-root",
+    "region_delete_icon": ".MuiCardContent-root .MuiTouchRipple-root",
+    "mouseover_view_region_details": "div[title='View Region Details']",
+    "active_icon": ".MuiCardContent-root .MuiIconButton-root",
+    "filters_1": ".fNjRST span .kjfTJU",
+    "region_id": ".AIRam .knAPns",
+    "profile_icon": ".MuiToolbar-root .MuiIconButton-sizeSmall",
+    "logout": ".MuiPaper-root .MuiListItemText-root .MuiTypography-displayBlock"
+  },
+  "edit_events": {
+    "dashboard_regions": ".MuiGrid-container div:nth-child(1) h2",
+    "preferences_options": ".MuiPaper-root .MuiListItemText-root .MuiTypography-displayBlock",
+    "project_name": "#projects > div:nth-child(2) > div > div .MuiGrid-container div:nth-child(1) span",
+    "project_flash_icon": "#projects > div:nth-child(2) > div > div .MuiGrid-container ul li:nth-child(2) a",
+    "title_name_input": ".MuiBox-root .MuiFormControl-root div:nth-child(1) input",
+    "event_value": ".MuiInputBase-root input",
+    "group_event_drop_down_button": ".MuiCard-root button .MuiCardActionArea-focusHighlight",
+    "group_event_title_name": ".MuiCard-root div:nth-child(2) .MuiBox-root p"
+  },
+  "project_edit_filters": {
+    "region_generating_icon": ".MuiList-root .MuiTypography-displayBlock",
+    "dashboard_impacts": ".MuiGrid-container div:nth-child(1) h2",
+    "event_type": ".MuiAutocomplete-endAdornment button",
+    "event_type_autocomplete": ".MuiAutocomplete-popper .MuiAutocomplete-paper .MuiAutocomplete-listbox .MuiAutocomplete-option",
+    "event_specification": ".MuiAutocomplete-endAdornment .MuiAutocomplete-popupIndicator",
+    "event_specification_autocomplete": ".MuiAutocomplete-popper .MuiAutocomplete-paper .MuiAutocomplete-listbox .MuiAutocomplete-option",
+    "project_event_value": ".MuiBox-root .MuiFormControl-root .MuiInputBase-root .MuiInput-input",
+    "event_drag_item": "button[draggable='true'",
+    "event_drop_item": ".MuiCard-root",
+    "group_title": ".MuiPaper-rounded .MuiInput-root input",
+    "group_region_autocomplete": ".MuiAutocomplete-popper .MuiAutocomplete-paper .MuiAutocomplete-listbox .MuiAutocomplete-option",
+    "group_run_button": ".MuiBox-root .MuiButton-contained",
+    "project_name_input": ".MuiOutlinedInput-root input",
+    "project_save_button": ".MuiDialogActions-root button"
+  }
+}

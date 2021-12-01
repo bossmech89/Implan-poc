@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<root>
+  <!-- Object Mappings For Model ID -->
+  <page name="model_id">
+    <obj name="username_input" attr="css" value="input[name='username']" />
+    <obj name="password_input" attr="css" value="input[name='password']" />
+    <obj name="login_button" attr="css" value=".auth0-lock-cred-pane button" />
+    <obj name="dashboard_regions" attr="css" value=".MuiGrid-container div:nth-child(1) h2" />
+    <obj name="map_icon_one" attr="css" value=".MuiButtonGroup-root button" />
+    <obj name="map_icon_two" attr="css" value=".MuiButtonGroup-root button" />
+    <obj name="serach_input" attr="css" value=".MuiAutocomplete-inputRoot input" />
+    <obj name="search_autocomplete" attr="css" value=".MuiAutocomplete-popper div ul li)" />
+    <obj name="mouseover_inactive_icon" attr="css" value="div[title='Click to build Region']" />
+    <obj name="inactive_icon" attr="css" value=".MuiCardContent-root .MuiTouchRipple-root" />
+    <obj name="region_delete_icon" attr="css" value=".MuiCardContent-root .MuiTouchRipple-root" />
+    <obj name="mouseover_view_region_details" attr="css" value="div[title='View Region Details']" />
+    <obj name="active_icon" attr="css" value=".MuiCardContent-root .MuiIconButton-root" />
+    <obj name="filters_1" attr="css" value=".fNjRST span .kjfTJU" />
+    <obj name="region_id" attr="css" value=".AIRam .knAPns" />
+    <obj name="profile_icon" attr="css" value=".MuiToolbar-root .MuiIconButton-sizeSmall" />
+    <obj name="logout" attr="css" value=".MuiPaper-root .MuiListItemText-root .MuiTypography-displayBlock" />
+  </page>
+  <!-- Object Mappings For Edit events -->
+  <page name = "edit_events">
+  <obj name="dashboard_regions" attr="css" value=".MuiGrid-container div:nth-child(1) h2" />
+  <obj name="preferences_options" attr="css" value=".MuiPaper-root .MuiListItemText-root .MuiTypography-displayBlock" />
+  <obj name="project_name" attr="css" value="#projects > div:nth-child(2) > div > div .MuiGrid-container div:nth-child(1) span" />
+  <obj name="project_flash_icon" attr="css" value="#projects > div:nth-child(2) > div > div .MuiGrid-container ul li:nth-child(2) a" />
+  <obj name="title_name_input" attr="css" value=".MuiBox-root .MuiFormControl-root div:nth-child(1) input" />
+  <obj name="event_value" attr="css" value=".MuiInputBase-root input" />
+  <obj name="group_event_drop_down_button" attr="css" value=".MuiCard-root button .MuiCardActionArea-focusHighlight" />
+  <obj name="group_event_title_name" attr="css" value=".MuiCard-root div:nth-child(2) .MuiBox-root p" />
+  </page>
+  <!-- Object Mappings For Project edit filters and specification selected-->
+  <page name = "project_edit_filters">
+  <obj name="region_generating_icon" attr="css" value=".MuiList-root .MuiTypography-displayBlock" />
+  <obj name="dashboard_impacts" attr="css" value=".MuiGrid-container div:nth-child(1) h2" />
+  <obj name="event_type" attr="css" value=".MuiAutocomplete-endAdornment button" />
+  <obj name="event_type_autocomplete" attr="css" value=".MuiAutocomplete-popper .MuiAutocomplete-paper .MuiAutocomplete-listbox .MuiAutocomplete-option" />
+  <obj name="event_specification" attr="css" value=".MuiAutocomplete-endAdornment .MuiAutocomplete-popupIndicator" />
+  <obj name="event_specification_autocomplete" attr="css" value=".MuiAutocomplete-popper .MuiAutocomplete-paper .MuiAutocomplete-listbox .MuiAutocomplete-option" />
+  <obj name="project_event_value" attr="css" value=".MuiBox-root .MuiFormControl-root .MuiInputBase-root .MuiInput-input" />
+  <obj name="event_drag_item" attr="css" value="button[draggable='true'" />
+  <obj name="event_drop_item" attr="css" value=".MuiCard-root" />
+  <obj name="group_title" attr="css" value=".MuiPaper-rounded .MuiInput-root input" />
+  <obj name="group_region_autocomplete" attr="css" value=".MuiAutocomplete-popper .MuiAutocomplete-paper .MuiAutocomplete-listbox .MuiAutocomplete-option" />
+  <obj name="group_run_button" attr="css" value=".MuiBox-root .MuiButton-contained" />
+  <obj name="project_name_input" attr="css" value=".MuiOutlinedInput-root input" />
+  <obj name="project_save_button" attr="css" value=".MuiDialogActions-root button" />
+  </page>
+</root>
