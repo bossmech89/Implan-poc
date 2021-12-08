@@ -6,8 +6,8 @@
     "dashboard_regions": ".MuiGrid-container div:nth-child(1) h2",
     "map_icon_one": ".MuiButtonGroup-root button",
     "map_icon_two": ".MuiButtonGroup-root button",
-    "serach_input": ".MuiAutocomplete-inputRoot input",
-    "search_autocomplete": ".MuiAutocomplete-popper div ul li)",
+    "search_input": ".MuiAutocomplete-inputRoot input",
+    "search_autocomplete": ".MuiAutocomplete-popper div ul li",
     "mouseover_inactive_icon": "div[title='Click to build Region']",
     "inactive_icon": ".MuiCardContent-root .MuiTouchRipple-root",
     "region_delete_icon": ".MuiCardContent-root .MuiTouchRipple-root",
@@ -43,5 +43,29 @@
     "group_run_button": ".MuiBox-root .MuiButton-contained",
     "project_name_input": ".MuiOutlinedInput-root input",
     "project_save_button": ".MuiDialogActions-root button"
+  },
+  "region_overview": {
+    "nebraska_country": "#region-map path[data-description='Nebraska']",
+    "washington_country": "#region-map path[data-description='Washington']",
+    "minnesota_country": "#region-map path[data-description='Minnesota']",
+    "colorado_country": "#region-map path[data-description='Colorado']",
+    "newyork_country": "#region-map path[data-description='New York']",
+    "pennsylvania_country": "#region-map path[data-description='Pennsylvania']",
+    "georgia_country": "#region-map path[data-description='Georgia']",
+    "north_dakota": "#region-map path[data-description='North Dakota']",
+    "florida": "#region-map path[data-description='Florida']",
+    "kansas_country": "#region-map path[data-description='Kansas']",
+    "selected_country_name": ".MuiPaper-root .MuiBox-root h3[title='Kansas']",
+    "selected_country_employment": ".MuiCardContent-root ul li p"
+  },
+  "combine_regions": {
+    "combine_region_icon": ".MuiPaper-root .MuiBox-root button",
+    "combine_region": ".MuiTypography-displayBlock",
+    "country_name_input": "form .MuiInputBase-root input",
+    "combine_region_save_button": ".MuiDialogActions-root .MuiButton-contained",
+    "inactive_icon": ".MuiBox-root > div",
+    "delete_icon": ".MuiBox-root button",
+    "mendocino_state": "#region-map path[data-description='Mendocino']",
+    "glenn_state": "#region-map path[data-description='Glenn']"
   }
 }

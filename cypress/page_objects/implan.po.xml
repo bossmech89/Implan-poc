@@ -8,8 +8,8 @@
     <obj name="dashboard_regions" attr="css" value=".MuiGrid-container div:nth-child(1) h2" />
     <obj name="map_icon_one" attr="css" value=".MuiButtonGroup-root button" />
     <obj name="map_icon_two" attr="css" value=".MuiButtonGroup-root button" />
-    <obj name="serach_input" attr="css" value=".MuiAutocomplete-inputRoot input" />
-    <obj name="search_autocomplete" attr="css" value=".MuiAutocomplete-popper div ul li)" />
+    <obj name="search_input" attr="css" value=".MuiAutocomplete-inputRoot input" />
+    <obj name="search_autocomplete" attr="css" value=".MuiAutocomplete-popper div ul li" />
     <obj name="mouseover_inactive_icon" attr="css" value="div[title='Click to build Region']" />
     <obj name="inactive_icon" attr="css" value=".MuiCardContent-root .MuiTouchRipple-root" />
     <obj name="region_delete_icon" attr="css" value=".MuiCardContent-root .MuiTouchRipple-root" />
@@ -47,5 +47,31 @@
   <obj name="group_run_button" attr="css" value=".MuiBox-root .MuiButton-contained" />
   <obj name="project_name_input" attr="css" value=".MuiOutlinedInput-root input" />
   <obj name="project_save_button" attr="css" value=".MuiDialogActions-root button" />
+  </page>
+  <!-- Object mappings for Region overview page-->
+  <page name = "region_overview">
+  <obj name="nebraska_country" attr="css" value="#region-map path[data-description='Nebraska']" />
+  <obj name="washington_country" attr="css" value="#region-map path[data-description='Washington']" />
+  <obj name="minnesota_country" attr="css" value="#region-map path[data-description='Minnesota']" />
+  <obj name="colorado_country" attr="css" value="#region-map path[data-description='Colorado']" />
+  <obj name="newyork_country" attr="css" value="#region-map path[data-description='New York']" />
+  <obj name="pennsylvania_country" attr="css" value="#region-map path[data-description='Pennsylvania']" />
+  <obj name="georgia_country" attr="css" value="#region-map path[data-description='Georgia']" />
+  <obj name="north_dakota" attr="css" value="#region-map path[data-description='North Dakota']" />
+  <obj name="florida" attr="css" value="#region-map path[data-description='Florida']" />
+  <obj name="kansas_country" attr="css" value="#region-map path[data-description='Kansas']" />
+  <obj name="selected_country_name" attr="css" value=".MuiPaper-root .MuiBox-root h3[title='Kansas']" />
+  <obj name="selected_country_employment" attr="css" value=".MuiCardContent-root ul li p" />
+  </page>
+  <!-- Object mappings for Combine regions-->
+  <page name = "combine_regions">
+  <obj name="combine_region_icon" attr="css" value=".MuiPaper-root .MuiBox-root button" />
+  <obj name="combine_region" attr="css" value=".MuiTypography-displayBlock" />
+  <obj name="country_name_input" attr="css" value="form .MuiInputBase-root input" />
+  <obj name="combine_region_save_button" attr="css" value=".MuiDialogActions-root .MuiButton-contained" />
+  <obj name="inactive_icon" attr="css" value=".MuiBox-root > div" />
+  <obj name="delete_icon" attr="css" value=".MuiBox-root button" />
+  <obj name="mendocino_state" attr="css" value="#region-map path[data-description='Mendocino']" />
+  <obj name="glenn_state" attr="css" value="#region-map path[data-description='Glenn']" />
   </page>
 </root>

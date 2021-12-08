@@ -16,14 +16,14 @@ describe("Validate aggregated and unaggregated industries in preferences", () =>
         // Click the profile icon
         cy.get(".MuiToolbar-root .MuiIconButton-sizeSmall").eq(0).click();
         cy.wait(2000);
-        // Click the preferences option
         cy.get(".MuiPaper-root .MuiListItemText-root .MuiTypography-displayBlock").eq(0).click({ force: true });
     });
 
     it("Select industry scheme", () => {
-        // Click the new custom scheme
-        cy.wait(5000);
+        // Click the preferences option and new custom scheme
+        cy.wait(10000);
         cy.get("form button").eq(3).click({ force: true });
+        cy.wait(3000);
         // Select industry scheme
         cy.get("#select-industry-scheme .MuiIconButton-label").first().click({ force: true });
         // Click the continue button
@@ -44,13 +44,15 @@ describe("Validate aggregated and unaggregated industries in preferences", () =>
 
     it("Drag and drop the unaggregated industry to aggregated industry", () => {
         cy.wait(4000);
-        draggedIndustrieslist = Cypress.$(".css-9nxabp .MuiTableContainer-root .css-v2kfba div[draggable='true']").length;
-        console.log(draggedIndustrieslist);
+        const draggedIndustrieslist = Cypress.$(".css-9nxabp .MuiTableContainer-root .css-v2kfba div[draggable='true'] > :nth-child(1)").length;
+        cy.log(draggedIndustrieslist);
+        cy.wait(3000);
         cy.get(".css-9nxabp .MuiTableContainer-root .css-v2kfba div[draggable='true']").first().drag(".css-10rxdqi .MuiTableContainer-root .css-v2kfba div[draggable='true']");
+        cy.get(".css-9nxabp .MuiTableContainer-root .css-v2kfba div[draggable='true']").eq(1).drag(".css-10rxdqi .MuiTableContainer-root .css-v2kfba div[draggable='true']");
         // Aggregated dropped list
         droppedListLength = Cypress.$(".css-10rxdqi .MuiTableContainer-root .css-v2kfba div[draggable='true']").length;
         const industriesLength = draggedIndustrieslist - droppedListLength;
         console.log(industriesLength);
-        cy.get(".css-9nxabp .MuiTableContainer-root .css-v2kfba div[draggable='true']").should("have.length", industriesLength);
+        cy.get(".css-9nxabp .MuiTableContainer-root .css-v2kfba div[draggable='true']").should("have.length", industriesLength + 1);
     })
 });

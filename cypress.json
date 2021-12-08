@@ -1,0 +1,9 @@
+{
+    "testFiles": "cypress/**/*.spec.js",
+    "integrationFolder": "./",
+    "pageLoadTimeout": 90000,
+    "chromeWebSecurity": false,
+    "env": {
+        "CYPRESS_WEB_BASE_URL": "https://beta-app.implan.com"
+    }
+}
