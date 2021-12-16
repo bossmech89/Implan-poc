@@ -100,7 +100,7 @@ describe("Generate the Model ID", () => {
         randomNumber = (Math.floor(Math.random() * 88));
         console.log(randomNumber);
         debugger;
-        cy.get(pageObj.model_id.serach_input).type(States[randomNumber]);
+        cy.get(pageObj.model_id.search_input).type(States[randomNumber]);
         cy.wait(3000);
         cy.get(pageObj.model_id.search_autocomplete).eq(0).click({ force: true });
         cy.wait(6000);

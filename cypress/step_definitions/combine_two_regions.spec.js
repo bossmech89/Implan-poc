@@ -10,7 +10,7 @@ randomNumber = (Math.floor(Math.random() * 10));
 // Generate random number
 randomNumberForRegion = (Math.floor(Math.random() * 20) + 11);
 
-describe("Validate the combined two region", () => {
+describe("Validate the combine two region", () => {
     it("I Login with valid username and password", () => {
         // Visit the URL
         common.visit();

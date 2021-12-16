@@ -16,6 +16,9 @@
     <obj name="mouseover_view_region_details" attr="css" value="div[title='View Region Details']" />
     <obj name="active_icon" attr="css" value=".MuiCardContent-root .MuiIconButton-root" />
     <obj name="filters_1" attr="css" value=".fNjRST span .kjfTJU" />
+    <obj name="occupation_data" attr="css" value="header .MuiToolbar-root button:nth-child(6)" />
+    <obj name="region_occupation_summary" attr="css" value="div div ul .MuiButtonBase-root" />
+    <obj name="selected_region_occupation_summary" attr="css" value="div[aria-label='Dashboard Header'] > div h1" />
     <obj name="region_id" attr="css" value=".AIRam .knAPns" />
     <obj name="profile_icon" attr="css" value=".MuiToolbar-root .MuiIconButton-sizeSmall" />
     <obj name="logout" attr="css" value=".MuiPaper-root .MuiListItemText-root .MuiTypography-displayBlock" />
@@ -72,6 +75,30 @@
   <obj name="inactive_icon" attr="css" value=".MuiBox-root > div" />
   <obj name="delete_icon" attr="css" value=".MuiBox-root button" />
   <obj name="mendocino_state" attr="css" value="#region-map path[data-description='Mendocino']" />
+  <obj name="maine_state" attr="css" value="#region-map path[data-description='Maine']" />
   <obj name="glenn_state" attr="css" value="#region-map path[data-description='Glenn']" />
+  </page>
+  <!-- Object mappings for Create Impact-->
+  <page name = "create_impact">
+  <obj name="selected_region_name" attr="css" value=".MuiPaper-root .MuiBox-root h3" />
+  <obj name="selected_region_trash_icon" attr="css" value=".MuiPaper-root .MuiBox-root button" />
+  <obj name="create_impact_button" attr="css" value=".MuiPaper-root button" />
+  <obj name="region_map" attr="css" value="#region-map g rect" />
+  <obj name="project_name_input" attr="css" value="#name-project-modal input" />
+  <obj name="project_save_button" attr="css" value=".MuiDialogActions-root button" />
+  <obj name="created_project_name" attr="css" value="header p" />
+  <obj name="overview_label" attr="css" value="header div button:nth-child(1) span" />
+  <obj name="map_views_label" attr="css" value=".SkipThisFixedPosition .walkme-icon-image-div" />
+  <obj name="created_region_name" attr="css" value=".MuiCardContent-root .MuiBox-root .MuiAutocomplete-root input" />
+  </page>
+  <!-- Object mappings for Data Library-->
+  <page name = "data_library">
+  <obj name="data_library_dashboard" attr="css" value="header div button:nth-child(2)" />
+  <obj name="data_library_explores" attr="css" value="header div button:nth-child(3)" />
+  <obj name="data_library_local_area" attr="css" value="header div button:nth-child(5)" />
+  <obj name="data_library_foot_print" attr="css" value="header div button:nth-child(6)" />
+  <obj name="commodity_compare" attr="css" value="div div .MuiList-root li" />
+  <obj name="selected_commodity_compare" attr="css" value="div[aria-label='Dashboard Header'] h1" />
+  <obj name="selected_commodity_data" attr="css" value="nav[aria-label='Field Picker'] h2" />
   </page>
 </root>

@@ -14,6 +14,9 @@
     "mouseover_view_region_details": "div[title='View Region Details']",
     "active_icon": ".MuiCardContent-root .MuiIconButton-root",
     "filters_1": ".fNjRST span .kjfTJU",
+    "occupation_data": "header .MuiToolbar-root button:nth-child(6)",
+    "region_occupation_summary": "div div ul .MuiButtonBase-root",
+    "selected_region_occupation_summary": "div[aria-label='Dashboard Header'] > div h1",
     "region_id": ".AIRam .knAPns",
     "profile_icon": ".MuiToolbar-root .MuiIconButton-sizeSmall",
     "logout": ".MuiPaper-root .MuiListItemText-root .MuiTypography-displayBlock"
@@ -66,6 +69,28 @@
     "inactive_icon": ".MuiBox-root > div",
     "delete_icon": ".MuiBox-root button",
     "mendocino_state": "#region-map path[data-description='Mendocino']",
+    "maine_state": "#region-map path[data-description='Maine']",
     "glenn_state": "#region-map path[data-description='Glenn']"
+  },
+  "create_impact": {
+    "selected_region_name": ".MuiPaper-root .MuiBox-root h3",
+    "selected_region_trash_icon": ".MuiPaper-root .MuiBox-root button",
+    "create_impact_button": ".MuiPaper-root button",
+    "region_map": "#region-map g rect",
+    "project_name_input": "#name-project-modal input",
+    "project_save_button": ".MuiDialogActions-root button",
+    "created_project_name": "header p",
+    "overview_label": "header div button:nth-child(1) span",
+    "map_views_label": ".SkipThisFixedPosition .walkme-icon-image-div",
+    "created_region_name": ".MuiCardContent-root .MuiBox-root .MuiAutocomplete-root input"
+  },
+  "data_library": {
+    "data_library_dashboard": "header div button:nth-child(2)",
+    "data_library_explores": "header div button:nth-child(3)",
+    "data_library_local_area": "header div button:nth-child(5)",
+    "data_library_foot_print": "header div button:nth-child(6)",
+    "commodity_compare": "div div .MuiList-root li",
+    "selected_commodity_compare": "div[aria-label='Dashboard Header'] h1",
+    "selected_commodity_data": "nav[aria-label='Field Picker'] h2"
   }
 }
