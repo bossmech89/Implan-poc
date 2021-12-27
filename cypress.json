@@ -5,5 +5,6 @@
     "chromeWebSecurity": false,
     "env": {
         "CYPRESS_WEB_BASE_URL": "https://beta-app.implan.com"
-    }
+    },
+    "baseUrl": "https://reqres.in"
 }

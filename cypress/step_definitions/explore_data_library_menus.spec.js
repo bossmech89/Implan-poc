@@ -67,7 +67,7 @@ describe("Explore data library menus", () => {
         cy.wait(3000);
     });
 
-    it("Validate the local area lists", () => {
+    it("Validate the foot print lists", () => {
         // Validate the regional overview
         footprintOverview = Cypress.$(pageObj.data_library.commodity_compare).eq(0).text();
         cy.get(pageObj.data_library.commodity_compare).eq(0).click({force: true});
